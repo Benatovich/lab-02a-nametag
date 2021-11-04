@@ -24,6 +24,10 @@
     background-color: lightgrey;
 }
 
+#pronoun-input {
+    background-color: white;
+}
+
 .pink-button {
     /* display: grid; */
     background-color: lightgrey;

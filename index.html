@@ -21,11 +21,12 @@
 <button class="button" id="button">Change Name</button>
 <br> <br>
 Change Pronouns:
-<select class="pronoun-input" id="pronoun-input">
+<select name="pronoun-input" id="pronoun-input">
+    <option value="">--select--</option>
     <option value="male">he/him</option>
     <option value="female">she/her</option>
     <option value="they">they/them</option>
-    <option value="other">add to name input</option>
+    <option value="other">other (add manually after your name)</option>
 </select>
 <br> <br>
 Change Color:
@@ -40,7 +41,8 @@ Change Color:
     <div class="sticker-back">
         <h1 id="hello" class="hello">HELLO</h1>
         <h2 id="sub" class="sub">my name is</h2>
-        <p id="output" class="output" id="output">Sam Benatovich <br> (he/they)</p>
+        <p id="output" class="output">Sam Benatovich</p>
+        <div id="pronoun-output" class="pronoun-output"></div>
     </div>
 
     <!-- Footer  -->

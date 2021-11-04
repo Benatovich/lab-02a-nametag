@@ -33,3 +33,32 @@ blueEl.addEventListener('click', () => {
     subEl.style.backgroundColor = 'blue';
     outputEl.style.borderBottom = '50px solid blue';
 })
+
+// pronoun selection
+const pronounEl = document.getElementById('pronoun-input')
+// const checkValue = element.options[element.selectedIndex].value;
+const checkText = element.options[element.selectedIndex].text;
+
+pronounEl.addEventListener('change',(e) => {
+    const value = e.target.value;
+    const text = element.options[element.selectedIndex].text;
+
+    if (value) {
+        document.getElementById('pronoun-output').textContent = `Value Selected: ${value}`;
+    } else {
+      document.getElementById("pick").textContent = "";
+    }
+  });
+
+
+// const maleEl = document.getElementById('male')
+// const femaleEl = document.getElementById('female')
+// const theyEl = document.getElementById('they')
+// const otherEl = document.getElementById('other')
+
+// maleEl.addEventListener('click', () => {
+//     const pronoun = maleEl.value;
+
+//     outputEl.textContent = pronoun;
+
+// })
