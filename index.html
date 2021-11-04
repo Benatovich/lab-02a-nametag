@@ -9,28 +9,39 @@
 </head>
 
 <body>
-    <!-- SIDE BAR -->
-    <!-- <div class="side-bar">
-        <a href="#">Top</a>
-        <a href="#">Name Tag</a>
-        <a href="#">Bottom</a>
-    </div> -->
-
+    
     <!-- HEADER -->
     <h1 class="welcome">WELCOME TO THE HOUSE OF NAME TAG</h1>
     <h2 class="slogan">Home of Sam's Famous Name Tags</h2>
-
+    
     <hr>
-    <!-- CONTENT AREA -->
+
+    <!-- Input Section (add pronouns, change font, track number of name changes)-->
+<input class="input" id="input"/>
+<button class="button" id="button">Change Name</button>
+<br> <br>
+<input class="pronoun-input" id="pronoun-input"/>
+<button class="pronoun-button" id="pronoun-button">Change Pronouns</button>
+<br> <br>
+Change Color:
+<button class="pink-button" id="pink-button">Pink</button>
+<button class="green-button" id="green-button">Green</button>
+<button class="blue-button" id="blue-button">Blue</button>
+
+
+
+    <!-- Sticker Section -->
 
     <div class="sticker-back">
-        <h1 class="hello">HELLO</h1>
-        <h2 class="sub">my name is</h2>
-        <p>Sam Benatovich</p>
+        <h1 id="hello" class="hello">HELLO</h1>
+        <h2 id="sub" class="sub">my name is</h2>
+        <p id="output" class="output" id="output">Sam Benatovich <br> (he/they)</p>
     </div>
 
+    <!-- Footer  -->
     <footer>
         Rattus Quo, LLC
     </footer>
+    <script type="module" src="./app.js"></script>
 </body>
 </html>

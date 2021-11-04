@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 * {
-    background-color: paleturquoise;
+    background-color: beige;
 }
 
 .welcome {
@@ -14,17 +14,30 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* .side-bar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: pink;
-    overflow-x: hidden;
-    padding-top: 20px;
-} */
+.input {
+    /* display: grid; */
+    background-color: white;   
+}
+
+.button {
+    /* display: grid; */
+    background-color: lightgrey;
+}
+
+.pink-button {
+    /* display: grid; */
+    background-color: lightgrey;
+}
+
+.green-button {
+    /* display: grid; */
+    background-color: lightgrey;
+}
+
+.blue-button {
+    /* display: grid; */
+    background-color: lightgrey;
+}
 
 .sticker-back {
     margin: 30px 200px;
